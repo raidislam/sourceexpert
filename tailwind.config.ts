@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 export default {
   content: [
@@ -20,10 +20,14 @@ export default {
       fontSize: {
         base: "1.6rem", // 16px
         sm: "1.2rem", // 12px
+        extra: "1.4rem", //14px
+        md: "1.8rem", // 18px
         lg: "2rem", // 20px
         xl: "2.4rem", // 24px
         "2xl": "3.2rem", // 32px
         "3xl": "4rem", // 40px
+        "7xl": "7.2rem", // 72px
+        "6xl": "6rem", // 60px
       },
       fontWeight: {
         thin: "100",
@@ -43,7 +47,7 @@ export default {
         normal: "1.6",
         relaxed: "1.75",
         loose: "2",
-        custom: "2.5", // Example custom line height
+        custom: "76px", // Example custom line height
       },
       spacing: {
         "1": "0.1rem", // 1px
@@ -51,6 +55,8 @@ export default {
         "4": "0.4rem", // 4px
         "8": "0.8rem", // 8px
         "10": "1rem", // 10px
+        "12": "1.2rem", // 12px
+        "16": "1.6rem", // 16px
         "20": "2rem", // 20px
         "30": "3rem", // 30px
         "40": "4rem", // 40px
@@ -83,4 +89,4 @@ export default {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     require("daisyui"),
   ],
-} satisfies Config
+} satisfies Config;

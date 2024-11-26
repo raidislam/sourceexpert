@@ -1,11 +1,11 @@
-import Header from "@/components/header"
-import "./globals.css"
-import Footer from "@/components/footer"
+import Footer from "./components/footer";
+import Header from "./components/header";
+import "./globals.css";
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -15,10 +15,10 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body>
-        {/* <Header /> */}
+        <Header />
         <main>{children}</main> {/* Main content goes here */}
         <Footer />
       </body>
     </html>
-  )
+  );
 }
