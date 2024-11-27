@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function Header() {
   return (
-    <div className="navbar bg-red-500 py-20">
+    <div className="navbar py-20 bg-transparent relative z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

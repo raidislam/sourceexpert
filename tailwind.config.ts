@@ -16,6 +16,7 @@ export default {
         "112rem": "112rem", // 1120px height (for larger screens)
         "80rem": "80rem", // 800px height (for mobile)
         "100rem": "100rem", // 1000px height (for tablets)
+        "94rem": "9.4rem",
       },
       fontSize: {
         base: "1.6rem", // 16px
@@ -60,6 +61,10 @@ export default {
         "20": "2rem", // 20px
         "30": "3rem", // 30px
         "40": "4rem", // 40px
+        "50": "5rem", // 40px
+        "80": "8rem", // 40px
+        "56": "5.6rem", // 40px
+        "100": "10rem", // 100px
         "container-padding": "8rem", // 80px padding
       },
       letterSpacing: {
