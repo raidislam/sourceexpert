@@ -35,7 +35,7 @@ export default function Hero() {
             marketers, passionate about delivering exceptional digital
             solutions.
           </p>
-          <Button width="185" height="68" show={true} />
+          <Button width="185" height="68" show={true} content="Contact Us" />
           <div className="pt-80 pb-100">
             <img src="/hero/Banner.svg" alt="banner" />
           </div>
