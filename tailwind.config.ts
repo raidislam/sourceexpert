@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        layout: "144rem", // 1440px container
+        layout: "128rem", // 1280px container
         "ultra-layout": "192rem", // 1920px ultra-wide container
       },
       height: {
@@ -29,6 +29,10 @@ export default {
         "3xl": "4rem", // 40px
         "7xl": "7.2rem", // 72px
         "6xl": "6rem", // 60px
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"], // For Inter
+        manrope: ["Manrope", "sans-serif"], // For Manrope
       },
       fontWeight: {
         thin: "100",
@@ -59,6 +63,7 @@ export default {
         "12": "1.2rem", // 12px
         "16": "1.6rem", // 16px
         "20": "2rem", // 20px
+        "24": "2.4rem", // 20px
         "30": "3rem", // 30px
         "40": "4rem", // 40px
         "50": "5rem", // 40px
@@ -82,11 +87,11 @@ export default {
         lightgray: "var(--text-gray)",
       },
       screens: {
-        sm: "48rem", // 768px
-        md: "64rem", // 1024px
-        lg: "75rem", // 1200px
-        xl: "90rem", // 1440px
-        "ultra-wide": "120rem", // 1920px in rem
+        sm: "640px", // 40rem
+        md: "768px", // 48rem
+        lg: "1024px", // 64rem
+        xl: "1280px", // 80rem
+        "2xl": "1536px", // 96rem
       },
     },
   },
