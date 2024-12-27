@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -66,9 +66,10 @@ export default {
         "24": "2.4rem", // 20px
         "30": "3rem", // 30px
         "40": "4rem", // 40px
-        "50": "5rem", // 40px
-        "80": "8rem", // 40px
-        "56": "5.6rem", // 40px
+        "50": "5rem", // 50px
+        "80": "8rem", // 80px
+        "56": "5.6rem", // 56px
+        "62": "6.2rem", //62px
         "100": "10rem", // 100px
         "container-padding": "8rem", // 80px padding
       },
@@ -99,4 +100,4 @@ export default {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     require("daisyui"),
   ],
-} satisfies Config;
+} satisfies Config

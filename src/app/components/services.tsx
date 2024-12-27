@@ -1,5 +1,6 @@
-import Accordion from "./accordion";
-import Container from "./container";
+import Accordion from "./accordion"
+import Button from "./button"
+import Container from "./container"
 
 export default function Services() {
   return (
@@ -22,7 +23,16 @@ export default function Services() {
         <div>
           <Accordion />
         </div>
+        <div className="mt-62">
+          <Button
+            content="Show All Services"
+            width="244"
+            height="68"
+            show={true}
+            customStyle="underline"
+          />
+        </div>
       </Container>
     </section>
-  );
+  )
 }

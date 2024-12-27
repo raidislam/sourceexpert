@@ -1,6 +1,6 @@
-"use client";
-import Button from "./button";
-import Container from "./container";
+"use client"
+import Button from "./button"
+import Container from "./container"
 
 export default function Hero() {
   return (
@@ -42,5 +42,5 @@ export default function Hero() {
         </div>
       </Container>
     </section>
-  );
+  )
 }
