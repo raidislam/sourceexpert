@@ -9,3 +9,58 @@ html {
 body {
   @apply font-sans font-normal leading-normal tracking-normal;
 }
+
+/* Embla Carousel: */
+
+.embla {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  align-items: center;
+}
+
+.embla__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Animation */
+
+@keyframes borderGlow {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+button:hover span.animate-borderGlow {
+  animation: borderGlow 2s linear infinite;
+}
+
+button span.animate-borderGlow {
+  position: absolute;
+  inset: 4px; /* Ensures the glowing animation slightly overlaps the button */
+  border-radius: 60%;
+  border: 4px solid transparent;
+  background: linear-gradient(90deg, #9b9fff, #666cff);
+  background-clip: padding-box;
+  z-index: 1;
+  filter: blur(5px);
+}

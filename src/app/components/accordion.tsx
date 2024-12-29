@@ -1,7 +1,7 @@
 export default function Accordion() {
   return (
     <>
-      <div className="collapse collapse-arrow bg-[#F8F8F8] ">
+      <div className="collapse collapse-plus bg-[#F8F8F8] ">
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium">
           <h3 className="py-[35px] px-[40px] text-2xl xl:text-6xl font-inter font-semibold leading-[40px] bg-gradient-to-r from-[#9B9FFF] to-[#666CFF] bg-clip-text text-transparent">
@@ -22,7 +22,7 @@ export default function Accordion() {
           </div>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-[#F8F8F8] my-[24px]">
+      <div className="collapse collapse-plus bg-[#F8F8F8] my-[24px]">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           <h3 className="py-[35px] px-[40px] text-2xl xl:text-6xl font-inter font-semibold leading-[40px] bg-gradient-to-r from-[#9B9FFF] to-[#666CFF] bg-clip-text text-transparent">
@@ -43,7 +43,7 @@ export default function Accordion() {
           </div>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-[#F8F8F8]">
+      <div className="collapse collapse-plus bg-[#F8F8F8]">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           <h3 className="py-[35px] px-[40px] text-2xl xl:text-6xl font-inter font-semibold leading-[40px] bg-gradient-to-r from-[#9B9FFF] to-[#666CFF] bg-clip-text text-transparent">
@@ -64,7 +64,7 @@ export default function Accordion() {
           </div>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-[#F8F8F8] mt-[24px]">
+      <div className="collapse collapse-plus bg-[#F8F8F8] mt-[24px]">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           <h3 className="py-[35px] px-[40px] text-2xl xl:text-6xl font-inter font-semibold leading-[40px] bg-gradient-to-r from-[#9B9FFF] to-[#666CFF] bg-clip-text text-transparent">

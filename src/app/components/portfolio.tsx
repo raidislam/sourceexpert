@@ -1,7 +1,5 @@
-import React from "react"
-import Container from "./container"
-import CustomTab from "./tab"
-import PortfolioSection from "./tab"
+import Container from "./container";
+import PortfolioSection from "./tab";
 
 export default function Portfolio() {
   return (
@@ -11,7 +9,9 @@ export default function Portfolio() {
         backgroundPosition: "center center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        width: "100%",
       }}
+      className="py-[100px]"
     >
       <Container>
         <div className="flex items-center justify-center flex-col">
@@ -32,5 +32,5 @@ export default function Portfolio() {
         <PortfolioSection />
       </Container>
     </section>
-  )
+  );
 }
