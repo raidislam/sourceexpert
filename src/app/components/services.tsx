@@ -1,12 +1,12 @@
-import Accordion from "./accordion"
-import Button from "./button"
-import Container from "./container"
+import Accordion from "./accordion";
+import Button from "./button";
+import Container from "./container";
 
 export default function Services() {
   return (
     <section className="bg-white py-[100px]">
       <Container>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-[50px]">
           <h2 className="leading-none text-center">
             <span className="text-7xl xl:text-6xl font-bold text-[#0C111F]">
               The Services We Offer
@@ -34,5 +34,5 @@ export default function Services() {
         </div>
       </Container>
     </section>
-  )
+  );
 }

@@ -15,9 +15,9 @@ export default function About() {
         height: "1386px",
       }}
     >
-      <div className="py-[40px]">
+      <div className="py-[40px] pt-[57px]">
         <Container>
-          <h2 className="leading-none text-center">
+          <h2 className="leading-none text-center mb-[77px]">
             <span className="text-7xl xl:text-6xl font-bold text-white">
               About the
             </span>
@@ -25,10 +25,10 @@ export default function About() {
               SourceExpert
             </span>
           </h2>
-          <div>
+          <div className="flex gap-[40px]">
             <img src="/about/about-all.png" alt="" />
             <div>
-              <p className="text-[20px] font-inter font-normal leading-[28px]">
+              <p className="text-[20px] font-inter font-normal leading-[28px] mb-[32px]">
                 Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
                 dolor fringilla volutpat lectus amet. Integer sed pretium odio
                 lectus at malesuada sed eget nunc. Viverra malesuada viverra id
@@ -36,8 +36,8 @@ export default function About() {
                 suspendisse. Duis mattis hac urna fames in ante.
               </p>
               {/* Our Vision */}
-              <div>
-                <div>
+              <div className="mb-[32px]">
+                <div className="flex items-center gap-[20px] mb-[8px]">
                   <img src="/about/Eye.png" alt="" />
                   <p className="text-[#3D414C] font-inter font-semibold text-[32px] leading-[38.4px]">
                     Our Vision
@@ -49,8 +49,8 @@ export default function About() {
                 </p>
               </div>
               {/* Our Mission */}
-              <div>
-                <div>
+              <div className="mb-[32px]">
+                <div className="flex items-center gap-[20px] mb-[8px]">
                   <img src="/about/Target.png" alt="" />
                   <p className="text-[#3D414C] font-inter font-semibold text-[32px] leading-[38.4px]">
                     Our Mission
@@ -65,7 +65,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <p className="font-inter font-medium text-[44px] leading-[52px] text-[#0C111F]">
+            <p className="font-inter font-medium text-[44px] leading-[52px] text-[#0C111F] my-[68px]">
               We are passionate about helping businesses grow and succeed in the
               digital age. We take pride in our work and strive to exceed your
               expectations every time.

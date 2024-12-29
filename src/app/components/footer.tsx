@@ -4,7 +4,7 @@ import Container from "./container";
 
 export default function Footer() {
   return (
-    <>
+    <section className="bg-[#E9E9F7]">
       <div className="bg-[#080A32] py-[58px] mx-[250px] rounded-t-[40px]">
         <Container>
           <div className="flex justify-between items-center">
@@ -108,6 +108,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
+    </section>
   );
 }
